@@ -113,6 +113,7 @@ header {
         padding: 10px 40px 10px 40px;
         flex-direction: row;
         flex: 1; 
+    }
 }
 /* Desktop and Laptop code below */
 
@@ -120,8 +121,19 @@ header {
     header {
         display: flex;
         flex-direction: row;
-        background-color: red;
-
+        justify-content: space-between;
+        align-content: center;
+    }
+    #main_nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+         align-items: center;
+    }
+    #main_nav > a {
+        display: flex;
+        padding: 5px 60px 5px 60px;
+        margin: 0px 10px 0px 10px;
     }
 
 }
